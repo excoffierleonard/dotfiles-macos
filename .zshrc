@@ -12,6 +12,7 @@ PROMPT="%{$fg_bold[green]%}%n%{$reset_color%}@%{$fg_bold[green]%}%M %{$fg_bold[b
 alias ls="eza -alh --group-directories-first"
 alias gti="git"
 alias vim="nvim"
+alias cl="clear"
 
 # Use modern completion system
 autoload -Uz compinit

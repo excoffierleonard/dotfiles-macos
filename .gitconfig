@@ -1,0 +1,5 @@
+[user]
+	name = Leonard Excoffier
+	email = excoffier.leonard@gmail.com
+[core]
+	editor = nvim

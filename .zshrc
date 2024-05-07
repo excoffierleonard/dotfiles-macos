@@ -13,6 +13,7 @@ alias ls="eza -alh --group-directories-first"
 alias gti="git"
 alias vim="nvim"
 alias cl="clear"
+alias grep="rg"
 
 # Use modern completion system
 autoload -Uz compinit

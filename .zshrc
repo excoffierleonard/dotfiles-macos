@@ -22,6 +22,7 @@ alias vim="nvim"
 alias cl="clear"
 alias grep="rg"
 alias cd="z"
+alias top="btop"
 
 # Use modern completion system
 autoload -Uz compinit

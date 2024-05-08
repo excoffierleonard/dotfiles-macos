@@ -1,0 +1,6 @@
+{
+  "gruvbox.nvim": { "branch": "main", "commit": "c442515506caa166118e157980f62a9ac24fa8c3" },
+  "lazy.nvim": { "branch": "main", "commit": "d3974346b6cef2116c8e7b08423256a834cb7cbc" },
+  "plenary.nvim": { "branch": "master", "commit": "08e301982b9a057110ede7a735dd1b5285eb341f" },
+  "vim-tmux-navigator": { "branch": "master", "commit": "a26954a585b02a2ac02f87145e204f8798a7cbc2" }
+}

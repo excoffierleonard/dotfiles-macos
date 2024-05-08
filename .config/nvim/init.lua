@@ -1,1 +1,2 @@
-require("el.core.options")
+require("el.core")
+require("el.lazy")

@@ -23,6 +23,7 @@ alias cl="clear"
 alias grep="rg"
 alias cd="z"
 alias top="btop"
+alias :q="exit"
 
 # Use modern completion system
 autoload -Uz compinit

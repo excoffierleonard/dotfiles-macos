@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Set your dotfiles directory
-DOTFILES_DIR="$HOME/.dotfiles"
+# Set the dotfiles directory to the parent directory of where this script is located
+DOTFILES_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
 # Function to create symlinks
 create_symlinks() {

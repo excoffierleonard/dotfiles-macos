@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Path to the scripts
-SYMLINK_SCRIPT="$HOME/.dotfiles/symlink_dotfiles.sh"
-BREW_SCRIPT="$HOME/.dotfiles/install_brew_packages.sh"
+# Set the setup directory to where this script is located
+SETUP_DIR="$(cd "$(dirname "$0")" && pwd)"
+SYMLINK_SCRIPT="$SETUP_DIR/symlink_dotfiles.sh"
+BREW_SCRIPT="$SETUP_DIR/install_brew_packages.sh"
 
 # Run symlink script
 if [ -f "$SYMLINK_SCRIPT" ]; then

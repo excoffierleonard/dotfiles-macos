@@ -5,10 +5,10 @@ DOTFILES_DIR="$HOME/.dotfiles"
 
 # Function to create symlinks
 create_symlinks() {
-    # Find all files and directories in the dotfiles directory and iterate over them
-    find "$DOTFILES_DIR" -mindepth 1 -print0 | while IFS= read -r -d '' source; do
+    # Find all files and directories that start with a dot in the dotfiles directory and iterate over them
+    find "$DOTFILES_DIR" -mindepth 1 -name ".*" -print0 | while IFS= read -r -d '' source; do
         # Extract the relative path from the DOTFILES_DIR
-        relative_path=".${source#$DOTFILES_DIR/}"
+        relative_path="${source#$DOTFILES_DIR/}"
 
         # Define the target symlink path
         target="$HOME/$relative_path"

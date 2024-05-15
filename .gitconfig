@@ -3,6 +3,6 @@
 	email = excoffier.leonard@gmail.com
 [core]
 	editor = nvim
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore
 [init]
 	defaultBranch = main

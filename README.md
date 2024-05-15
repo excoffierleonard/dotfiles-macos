@@ -40,6 +40,12 @@ This document provides the necessary commands to recreate your environment using
 
 ## Additional Notes
 
+- Regularly check that the Brewfile is up-to-date and that the changes were pushed to the repo:
+
+  ```sh
+  brew bundle dump --describe --force --file="~/.dotfiles/setup/Brewfile"
+  ```
+
 - Ensure you have Homebrew installed on your machine. If Homebrew is not installed, you can install it by running:
 
   ```sh

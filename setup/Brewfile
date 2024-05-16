@@ -53,6 +53,8 @@ brew "zsh-syntax-highlighting"
 brew "jesseduffield/lazygit/lazygit"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices

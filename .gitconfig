@@ -1,6 +1,6 @@
 [user]
 	name = Leonard Excoffier
-	email = excoffier.leonard@gmail.com
+	email = 48970393+excoffierleonard@users.noreply.github.com
 [core]
 	editor = nvim
 	excludesfile = ~/.gitignore

@@ -25,6 +25,8 @@ alias cd="z"
 alias top="btop"
 alias :q="exit"
 alias lg="lazygit"
+alias python="python3"
+alias pip="pip3"
 
 # Use modern completion system
 autoload -Uz compinit

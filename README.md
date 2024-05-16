@@ -1,6 +1,6 @@
 # Environment Setup
 
-This document provides the necessary commands to recreate my environment using my dotfiles repository.
+This document provides the necessary commands to recreate the environment using the dotfiles repository.
 
 ## Steps to Recreate the Environment
 

@@ -29,6 +29,8 @@ brew "neofetch"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
+# Pretty system information tool written in POSIX sh
+brew "pfetch"
 # Theme for zsh
 brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher

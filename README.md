@@ -1,6 +1,6 @@
 # Environment Setup
 
-This document provides the necessary commands to recreate your environment using your dotfiles repository.
+This document provides the necessary commands to recreate the environment using the dotfiles repository.
 
 ## Steps to Recreate the Environment
 
@@ -56,4 +56,4 @@ This document provides the necessary commands to recreate your environment using
   - Symlink all dotfiles and directories that start with a dot from the `.dotfiles` directory to your home directory.
   - Install Homebrew packages as specified in the `Brewfile` located in the `setup` directory.
 
-With these steps, your environment should be set up in a way that mirrors your configured dotfiles and installed Homebrew packages.
+With these steps, the environment should be set up in a way that mirrors the configured dotfiles and installed Homebrew packages.

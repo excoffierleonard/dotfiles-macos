@@ -1,0 +1,5 @@
+alacritty.toml
+.p10k.zsh (9K_DIR_BACKGROUND = 0 or 4)
+colorscheme.lua
+lualine.lua (sometimes not always)
+.tmux.conf 

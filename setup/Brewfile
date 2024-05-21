@@ -61,6 +61,8 @@ cask "chatgpt"
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
+# Typeface made for developers
+cask "font-jetbrains-mono"
 # Developer targeted fonts with a high number of glyphs
 cask "font-meslo-lg-nerd-font"
 # Web browser

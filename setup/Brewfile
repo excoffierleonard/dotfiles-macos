@@ -3,6 +3,8 @@ tap "homebrew/cask-fonts"
 tap "jesseduffield/lazygit"
 # B2 Cloud Storage Command-Line Tools
 brew "b2-tools"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop

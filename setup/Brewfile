@@ -23,6 +23,8 @@ brew "fzf"
 brew "git"
 # Lazier way to manage everything docker
 brew "lazydocker"
+# Mac App Store command-line interface
+brew "mas"
 # Terminal-based visual file manager
 brew "midnight-commander"
 # Fast, highly customisable system info script
@@ -57,8 +59,12 @@ brew "zsh-syntax-highlighting"
 brew "jesseduffield/lazygit/lazygit"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Desktop password and login vault
+cask "bitwarden"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# UI for creating Windows installer ISO from UUPDump
+cask "crystalfetch"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
@@ -71,6 +77,12 @@ cask "font-meslo-lg-nerd-font"
 cask "google-chrome"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-live"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Office suite
+cask "microsoft-office"
+# Remote desktop client
+cask "microsoft-remote-desktop"
 # Sandbox construction video game
 cask "minecraft"
 # Peer to peer Bitorrent client
@@ -79,10 +91,19 @@ cask "qbittorrent"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Virtual machines UI using QEMU
+cask "utm"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "WireGuard", id: 1451685025
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"

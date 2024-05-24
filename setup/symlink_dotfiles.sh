@@ -2,6 +2,7 @@
 
 # Set the dotfiles directory to the parent directory of where this script is located
 DOTFILES_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d%H%M%S)"
 
 # Function to create symlinks
 create_symlinks() {
@@ -13,10 +14,11 @@ create_symlinks() {
         # Define the target symlink path
         target="$HOME/$relative_path"
 
-        # Remove existing symlink or file/directory
+        # If target exists, back it up
         if [ -L "$target" ] || [ -f "$target" ] || [ -d "$target" ]; then
-            rm -rf "$target"
-            echo "Removed existing $relative_path"
+            mkdir -p "$BACKUP_DIR"
+            mv "$target" "$BACKUP_DIR"
+            echo "Moved existing $relative_path to backup"
         fi
 
         # Ensure the parent directory exists

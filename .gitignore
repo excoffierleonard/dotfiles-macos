@@ -3,3 +3,6 @@
 
 # Ignore GitHub Copilot Access Token
 .config/github-copilot/
+
+# Ignore VSCode configs
+.vscode/

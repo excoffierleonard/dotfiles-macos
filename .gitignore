@@ -6,3 +6,6 @@
 
 # Ignore VSCode configs
 .vscode/
+
+# Ignore qBittorent configs
+.config/qBittorent/

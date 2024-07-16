@@ -8,4 +8,4 @@
 .vscode/
 
 # Ignore qBittorent configs
-.config/qBittorent/
+.config/qBittorrent/

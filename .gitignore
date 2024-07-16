@@ -4,8 +4,5 @@
 # Ignore GitHub Copilot Access Token
 .config/github-copilot/
 
-# Ignore VSCode configs
-.vscode/
-
 # Ignore qBittorent configs
 .config/qBittorrent/

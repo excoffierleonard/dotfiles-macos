@@ -28,7 +28,7 @@ alias :q="exit"
 alias lg="lazygit"
 alias python="python3"
 alias pip="pip3"
-alias system_update="~/system_update.sh"
+alias system_update="~/.dotfiles/system_update.sh"
 
 # Use modern completion system
 autoload -Uz compinit

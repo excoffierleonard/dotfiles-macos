@@ -28,6 +28,7 @@ alias :q="exit"
 alias lg="lazygit"
 alias python="python3"
 alias pip="pip3"
+alias git_update="git add . && git commit -m 'Update.' && git push"
 
 # Use modern completion system
 autoload -Uz compinit

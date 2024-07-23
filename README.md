@@ -12,38 +12,31 @@ This document provides the necessary commands to recreate the environment using 
    git clone https://github.com/excoffierleonard/dotfiles.git ~/.dotfiles
    ```
 
-2. **Navigate to the `setup` directory:**
+2. **Make the necessary scripts executable (if they are not already):**
 
-   After cloning the repository, navigate to the `setup` directory using:
-
-   ```sh
-   cd ~/.dotfiles/setup
-   ```
-
-3. **Make the setup scripts executable (if they are not already):**
-
-   Ensure the setup scripts are executable:
+   Ensure the necessary scripts are executable:
 
    ```sh
-   chmod +x symlink_dotfiles.sh
-   chmod +x install_brew_packages.sh
-   chmod +x setup.sh
+   chmod +x ~/.dotfiles/setup/symlink_dotfiles.sh
+   chmod +x ~/.dotfiles/setup/install_brew_packages.sh
+   chmod +x ~/.dotfiles/setup/setup.sh
+   chmod +x ~/.dotfiles/system_update.sh
    ```
 
-4. **Execute the setup script:**
+3. **Execute the setup script:**
 
    Finally, run the setup script to symlink the dotfiles and install the Homebrew packages:
 
    ```sh
-   ./setup.sh
+   ~/.dotfiles/setup/setup.sh
    ```
 
 ## Additional Notes
 
-- Regularly check that the Brewfile is up-to-date and that the changes were pushed to the repo:
+- Regularly run the system_update command (script) to update the Homebrew packages, the Nvim Lazy plugins, the Nvim Mason plugins, and push all the changes to the repo:
 
   ```sh
-  brew bundle dump --describe --force --file="~/.dotfiles/setup/Brewfile"
+  system_update
   ```
 
 - Ensure you have Homebrew installed on your machine. If Homebrew is not installed, you can install it by running:

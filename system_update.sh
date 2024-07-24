@@ -5,6 +5,9 @@ brew update
 brew upgrade 
 brew bundle dump --describe --force --file="$HOME/.dotfiles/setup/Brewfile"
 
+# Update App Store packages
+mas upgrade
+
 # Update Lazy.nvim plugins
 nvim --headless "+Lazy! sync" +qa
 

@@ -13,7 +13,7 @@ nvim --headless "+Lazy! sync" +qa
 nvim --headless +"MasonUpdate" +qa
 
 # Commit and push changes to the dotfiles repository
-cd "~/.dotfiles" || { echo "Failed to change directory to ~/.dotfiles"; exit 1; }
+cd "$HOME/.dotfiles" || { echo "Failed to change directory to ~/.dotfiles"; exit 1; }
 git add .
 git commit -m "System Update."
 git push

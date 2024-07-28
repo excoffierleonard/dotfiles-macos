@@ -64,8 +64,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Desktop password and login vault
 cask "bitwarden"
 # OpenAI's official ChatGPT desktop app
@@ -104,6 +102,8 @@ cask "utm"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
 mas "DaVinci Resolve", id: 571213070
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

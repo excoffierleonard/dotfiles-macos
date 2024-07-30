@@ -1,0 +1,5 @@
+InputSources:
+  -^Space Deseleced
+
+ModifierKeys:
+  -Caps Lock is bind to control

@@ -30,6 +30,9 @@ alias python="python3"
 alias pip="pip3"
 alias system_update="~/.dotfiles/system_update.sh"
 
+# Set up the editor
+export EDITOR=nvim
+
 # Use modern completion system
 autoload -Uz compinit
 compinit

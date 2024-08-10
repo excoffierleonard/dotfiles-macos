@@ -8,12 +8,12 @@ local config = wezterm.config_builder()
 config.initial_cols = 128
 config.initial_rows = 32
 
-config.window_padding = {
-	left = "10px",
-	right = "10px",
-	top = "10px",
-	bottom = "10px",
-}
+-- config.window_padding = {
+--	left = "10px",
+--	right = "10px",
+--	top = "10px",
+--	bottom = "10px",
+-- }
 
 config.color_scheme = "Tokyo Night"
 

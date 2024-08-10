@@ -37,7 +37,7 @@ brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
 # Create, run, and share large language models (LLMs)
-brew "ollama", restart_service: true
+brew "ollama"
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Theme for zsh
@@ -76,6 +76,10 @@ cask "crystalfetch"
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker"
+# Cloud backup tool
+cask "duplicacy-cli"
+# Cloud backup tool
+cask "duplicacy-web-edition"
 cask "font-jetbrains-mono"
 cask "font-meslo-lg-nerd-font"
 # Web browser

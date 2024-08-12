@@ -28,7 +28,7 @@ alias :q="exit"
 alias lg="lazygit"
 alias python="python3"
 alias pip="pip3"
-alias system_update="~/.dotfiles/system_update.sh"
+alias system_update="~/.scripts/system_update.sh"
 
 # Set up the editor
 export EDITOR=nvim

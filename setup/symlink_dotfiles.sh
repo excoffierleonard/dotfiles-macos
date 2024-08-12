@@ -2,7 +2,7 @@
 # TODO: Find way to exclude all of .config to be symlink, and find way to only symlink specific files in .config
 
 # Set the dotfiles directory to the parent directory of where this script is located
-DOTFILES_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+DOTFILES_DIR="$(dirname "${BASH_SOURCE[0]}" && cd .. && pwd)"
 BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d%H%M%S)"
 
 # Function to create symlinks

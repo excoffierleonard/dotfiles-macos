@@ -6,3 +6,15 @@
 
 # Ignore qBittorent configs
 .config/qBittorrent/
+
+# Ignore .env files
+.env
+
+# Ignore .idea files
+.idea
+
+# Ignore .vscode files
+.vscode
+
+# Ignore .ssh directory
+.ssh

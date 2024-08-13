@@ -10,7 +10,7 @@ mkdir -p "$documents_dir/todos"
 current_date_time=$(date "+%Y_%m_%d_%H_%M_%S")
 
 # Define the filename
-filename="${documents_dir}/todos/todo_${current_date_time}.txt"
+filename="${documents_dir}/todos/todo_${current_date_time}.md"
 
 # Create the file
 touch "$filename"

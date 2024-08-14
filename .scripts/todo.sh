@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: add a command todo new, that creates a new todo file even if there was already one for today
+
 # Define the Documents directory
 documents_dir="$HOME/Documents"
 

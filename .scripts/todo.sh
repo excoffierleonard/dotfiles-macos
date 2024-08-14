@@ -6,11 +6,11 @@ documents_dir="$HOME/Documents"
 # Create the todos directory if it doesn't exist
 mkdir -p "$documents_dir/todos"
 
-# Get the current date and time
-current_date_time=$(date "+%Y_%m_%d_%H_%M_%S")
+# Get the current date 
+current_date=$(date "+%Y_%m_%d")
 
 # Define the filename
-filename="${documents_dir}/todos/todo_${current_date_time}.md"
+filename="${documents_dir}/todos/todo_${current_date}.md"
 
 # Create the file
 touch "$filename"

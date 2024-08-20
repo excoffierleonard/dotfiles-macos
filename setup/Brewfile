@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
+tap "nikitabobko/tap"
 # B2 Cloud Storage Command-Line Tools
 brew "b2-tools"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -66,6 +67,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "aerospace"
 # Desktop password and login vault
 cask "bitwarden"
 # OpenAI's official ChatGPT desktop app

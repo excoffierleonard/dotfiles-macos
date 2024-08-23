@@ -23,6 +23,8 @@ brew "ffmpeg"
 brew "fzf"
 # Distributed revision control system
 brew "git"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Lazier way to manage everything docker
 brew "lazydocker"
 # Drop-in replacement for MySQL
@@ -122,6 +124,8 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "WireGuard", id: 1451685025
 vscode "github.codespaces"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"

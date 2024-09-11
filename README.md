@@ -9,7 +9,7 @@ This document provides the necessary commands to recreate the environment using 
    Open a terminal and run the following command to clone your dotfiles repository:
 
    ```sh
-   git clone https://github.com/excoffierleonard/dotfiles.git ~/.dotfiles
+   git clone https://github.com/excoffierleonard/dotfiles-macos.git ~/.dotfiles
    ```
 
 2. **Make the necessary scripts executable (if they are not already):**

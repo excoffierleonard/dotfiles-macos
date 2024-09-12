@@ -20,7 +20,8 @@ This document provides the necessary commands to recreate the environment using 
    chmod +x ~/.dotfiles/setup/symlink_dotfiles.sh
    chmod +x ~/.dotfiles/setup/install_brew_packages.sh
    chmod +x ~/.dotfiles/setup/setup.sh
-   chmod +x ~/.dotfiles/system_update.sh
+   chmod +x ~/.dotfiles/.scripts/system_update.sh
+   chmod +x ~/.dotfiles/.scripts/todo.sh
    ```
 
 3. **Execute the setup script:**

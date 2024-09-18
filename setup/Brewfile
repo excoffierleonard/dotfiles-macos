@@ -47,6 +47,8 @@ brew "powerlevel10k"
 brew "r"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Safe, concurrent, practical language
+brew "rust"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # Simplified and community-driven man pages

@@ -12,6 +12,12 @@ create_symlinks() {
         # Extract the relative path from the DOTFILES_DIR
         relative_path="${source#$DOTFILES_DIR/}"
 
+        # Ignore the exact .git directory
+        if [[ "$relative_path" == ".git" ]]; then
+            echo "Skipping $relative_path"
+            continue
+        fi
+
         # Define the target symlink path
         target="$HOME/$relative_path"
 

@@ -30,6 +30,8 @@ alias python="python3"
 alias pip="pip3"
 alias system_update="~/.scripts/system_update.sh"
 alias todo="~/.scripts/todo.sh"
+alias gacp='f() { git add . && git commit -m "$1" && git push; }; f'
+alias gac='f() { git add . && git commit -m "$1"; }; f'
 
 # Set up the editor
 export EDITOR=nvim

@@ -99,6 +99,8 @@ cask "microsoft-office"
 cask "microsoft-remote-desktop"
 # Sandbox construction video game
 cask "minecraft"
+# Client program for the OpenVPN Access Server
+cask "openvpn-connect"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
 # Music streaming service

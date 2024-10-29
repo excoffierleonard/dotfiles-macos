@@ -11,6 +11,8 @@ brew "bash"
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Statistics utility to count lines of code
+brew "cloc"
 # Console Matrix
 brew "cmatrix"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -49,6 +51,8 @@ brew "r"
 brew "ripgrep"
 # Safe, concurrent, practical language
 brew "rust"
+# Hunt down social media accounts by username
+brew "sherlock"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # Simplified and community-driven man pages
@@ -142,4 +146,5 @@ vscode "ms-vscode.remote-server"
 vscode "mtxr.sqltools"
 vscode "mtxr.sqltools-driver-mysql"
 vscode "reditorsupport.r"
+vscode "tomoki1207.pdf"
 vscode "zainchen.json"

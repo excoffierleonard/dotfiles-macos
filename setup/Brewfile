@@ -19,6 +19,8 @@ brew "cmatrix"
 brew "curl"
 # Modern, maintained replacement for ls
 brew "eza"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go

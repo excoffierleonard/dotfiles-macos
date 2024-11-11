@@ -107,6 +107,8 @@ cask "microsoft-remote-desktop"
 cask "minecraft"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
+# Collaboration platform for API development
+cask "postman"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
 # Music streaming service

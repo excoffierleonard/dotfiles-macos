@@ -17,7 +17,7 @@ config.window_padding = {
 
 config.color_scheme = "Tokyo Night"
 
-config.font = wezterm.font("MesloLGS Nerd Font Mono")
+config.font = wezterm.font("SF Mono")
 config.font_size = 16
 
 config.enable_tab_bar = false

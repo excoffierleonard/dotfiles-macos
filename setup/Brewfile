@@ -45,6 +45,8 @@ brew "node"
 brew "ollama"
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
 # Theme for zsh
 brew "powerlevel10k"
 # Software environment for statistical computing
@@ -81,6 +83,8 @@ cask "aerospace"
 cask "bitwarden"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # UI for creating Windows installer ISO from UUPDump
 cask "crystalfetch"
 # Voice and text chat software
@@ -93,6 +97,7 @@ cask "duplicacy-cli"
 cask "duplicacy-web-edition"
 cask "font-jetbrains-mono"
 cask "font-meslo-lg-nerd-font"
+cask "font-sf-mono"
 # Web browser
 cask "google-chrome"
 # Wallet desktop application to maintain multiple cryptocurrencies

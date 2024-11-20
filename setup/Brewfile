@@ -97,6 +97,7 @@ cask "duplicacy-cli"
 cask "duplicacy-web-edition"
 cask "font-jetbrains-mono"
 cask "font-meslo-lg-nerd-font"
+cask "font-monocraft"
 cask "font-sf-mono"
 # Web browser
 cask "google-chrome"

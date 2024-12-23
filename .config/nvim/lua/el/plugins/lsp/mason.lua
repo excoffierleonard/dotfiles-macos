@@ -27,6 +27,9 @@ return {
 			-- list of servers for mason to install
 			ensure_installed = {
 				"html",
+				"cssls",
+				"eslint",
+				"jsonls",
 				"lua_ls",
 				"pyright",
 				"rust_analyzer",

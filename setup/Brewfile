@@ -25,6 +25,8 @@ brew "icu4c@76"
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
 # Lightweight and flexible command-line JSON processor
@@ -55,6 +57,8 @@ brew "r"
 brew "ripgrep"
 # Safe, concurrent, practical language
 brew "rust"
+# Rust toolchain installer
+brew "rustup"
 # Hunt down social media accounts by username
 brew "sherlock"
 # Command-line interface for https://speedtest.net bandwidth tests

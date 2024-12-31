@@ -57,8 +57,6 @@ brew "r"
 brew "ripgrep"
 # Safe, concurrent, practical language
 brew "rust"
-# Rust toolchain installer
-brew "rustup"
 # Hunt down social media accounts by username
 brew "sherlock"
 # Command-line interface for https://speedtest.net bandwidth tests

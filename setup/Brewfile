@@ -21,6 +21,8 @@ brew "curl"
 brew "eza"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@76"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go

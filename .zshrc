@@ -68,3 +68,6 @@ setopt hist_verify
 # completion using arrow keys (based on history)
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
+
+# Ensure Cargo package can be reached
+export PATH="$HOME/.cargo/bin:$PATH"

@@ -43,6 +43,8 @@ brew "midnight-commander"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
 # Create, run, and share large language models (LLMs)

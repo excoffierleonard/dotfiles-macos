@@ -1,1 +1,0 @@
-{"Name":"x86builder","Driver":"docker-container","Nodes":[{"Name":"x86builder0","Endpoint":"desktop-linux","Platforms":null,"DriverOpts":null,"Flags":["--allow-insecure-entitlement=network.host"],"Files":null}],"Dynamic":false}

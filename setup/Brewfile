@@ -140,6 +140,7 @@ cask "vmware-fusion"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm"
 mas "DaVinci Resolve", id: 571213070
+mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
@@ -163,4 +164,5 @@ vscode "mtxr.sqltools"
 vscode "mtxr.sqltools-driver-mysql"
 vscode "reditorsupport.r"
 vscode "tomoki1207.pdf"
+vscode "xabikos.javascriptsnippets"
 vscode "zainchen.json"

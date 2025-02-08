@@ -35,6 +35,8 @@ brew "git"
 brew "jq"
 # Lazier way to manage everything docker
 brew "lazydocker"
+# Drop-in replacement for MySQL
+brew "mariadb"
 # Mac App Store command-line interface
 brew "mas"
 # Terminal-based visual file manager
@@ -162,6 +164,7 @@ vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-server"
 vscode "mtxr.sqltools"
 vscode "mtxr.sqltools-driver-mysql"
+vscode "openai.openai-chatgpt-adhoc"
 vscode "reditorsupport.r"
 vscode "tomoki1207.pdf"
 vscode "xabikos.javascriptsnippets"

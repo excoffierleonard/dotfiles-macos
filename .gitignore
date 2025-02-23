@@ -3,7 +3,7 @@
 
 # Unignore specific dotfiles in the root
 !/.gitignore
-!/.README.md
+!/README.md
 !/.gitconfig
 !/.gitignore_global
 !/.p10k.zsh

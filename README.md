@@ -4,33 +4,10 @@ This document provides the necessary commands to recreate the environment using 
 
 ## Steps to Recreate the Environment
 
-1. **Clone the dotfiles repository to the home directory:**
-
-   Open a terminal and run the following command to clone your dotfiles repository:
-
-   ```sh
-   git clone https://github.com/excoffierleonard/dotfiles-macos.git ~/.dotfiles
-   ```
-
-2. **Make the necessary scripts executable (if they are not already):**
-
-   Ensure the necessary scripts are executable:
-
-   ```sh
-   chmod +x ~/.dotfiles/setup/symlink_dotfiles.sh
-   chmod +x ~/.dotfiles/setup/install_brew_packages.sh
-   chmod +x ~/.dotfiles/setup/setup.sh
-   chmod +x ~/.dotfiles/.scripts/system_update.sh
-   chmod +x ~/.dotfiles/.scripts/todo.sh
-   ```
-
-3. **Execute the setup script:**
-
-   Finally, run the setup script to symlink the dotfiles and install the Homebrew packages:
-
-   ```sh
-   ~/.dotfiles/setup/setup.sh
-   ```
+```sh
+git clone https://github.com/excoffierleonard/dotfiles-macos.git ~/.dotfiles && \
+~/.dotfiles/setup/setup.sh
+```
 
 ## Additional Notes
 

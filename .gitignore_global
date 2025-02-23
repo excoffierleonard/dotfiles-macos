@@ -1,17 +1,8 @@
 # Ignore .DS_Store files
 .DS_Store
 
-# Ignore GitHub Copilot Access Token
-.config/github-copilot/
-
-# Ignore qBittorent configs
-.config/qBittorrent/
-
 # Ignore .env files
 .env
-
-# Ignore .idea files
-.idea
 
 # Ignore .ssh directory
 .ssh

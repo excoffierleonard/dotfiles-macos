@@ -1,0 +1,17 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "corepack": {
+      "version": "0.31.0",
+      "overridden": false
+    },
+    "npm": {
+      "version": "11.1.0",
+      "overridden": false
+    },
+    "typescript": {
+      "version": "5.7.3",
+      "overridden": false
+    }
+  }
+}

@@ -1,8 +1,7 @@
 # Ignore everything by default
 *
-.*
 
-# But track these dotfiles in the root
+# Unignore specific dotfiles in the root
 !/.gitignore
 !/.README.md
 !/.gitconfig
@@ -12,11 +11,17 @@
 !/.wezterm.lua
 !/.zshrc
 
-# Explicitly include directories from the repo root
+# Unignore specific directories (and their contents) from the root
+!/resources
 !/resources/**
+!/setup
 !/setup/**
+!/.scripts
 !/.scripts/**
+!/.config
+!/.config/aerospace
 !/.config/aerospace/**
+!/.config/nvim
 !/.config/nvim/**
+!/.config/gh
 !/.config/gh/**
-

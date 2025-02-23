@@ -1,0 +1,10 @@
+cargo-audit v0.21.1:
+    cargo-audit
+cargo-update v16.1.0:
+    cargo-install-update
+    cargo-install-update-config
+ocrs-cli v0.10.2:
+    ocrs
+sqlx-cli v0.8.3:
+    cargo-sqlx
+    sqlx

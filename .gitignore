@@ -1,5 +1,6 @@
 # Ignore everything by default
 *
+.*
 
 # But track these dotfiles in the root
 !/.gitignore
@@ -12,10 +13,10 @@
 !/.zshrc
 
 # Explicitly include directories from the repo root
-!/resources/
-!/setup/
-!/.scripts/
-!/.config/aerospace/
-!/.config/nvim/
-!/.config/gh/
+!/resources/**
+!/setup/**
+!/.scripts/**
+!/.config/aerospace/**
+!/.config/nvim/**
+!/.config/gh/**
 

@@ -7,6 +7,7 @@ brew bundle dump --describe --force --file="$HOME/.dotfiles/setup/Brewfile"
 
 # Update App Store packages
 mas upgrade
+mas list > "$HOME/.dotfiles/setup/mas_manifest.txt"
 
 # Update Lazy.nvim plugins
 nvim --headless "+Lazy! sync" +qa

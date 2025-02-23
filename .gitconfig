@@ -3,7 +3,7 @@
 	email = 48970393+excoffierleonard@users.noreply.github.com
 [core]
 	editor = nvim
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore_global
 [init]
 	defaultBranch = main
 [merge]

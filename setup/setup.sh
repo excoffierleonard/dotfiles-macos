@@ -2,14 +2,14 @@
 
 # Set the setup directory to where this script is located
 SETUP_DIR="$(cd "$(dirname "$0")" && pwd)"
-BREW_SCRIPT="$SETUP_DIR/install_brew_packages.sh"
+INSTALL_PACKAGES_SCRIPT="$SETUP_DIR/install_packages.sh"
 SYMLINK_SCRIPT="$SETUP_DIR/symlink_dotfiles.sh"
 
-# Run Homebrew install script
-if [ -f "$BREW_SCRIPT" ]; then
-    bash "$BREW_SCRIPT"
+# Run packages install script
+if [ -f "$INSTALL_PACKAGES_SCRIPT" ]; then
+    bash "$INSTALL_PACKAGES_SCRIPT"
 else
-    echo "Homebrew install script not found: $BREW_SCRIPT"
+    echo "Homebrew install script not found: $INSTALL_PACKAGES_SCRIPT"
 fi
 
 # Run symlink script

@@ -10,10 +10,17 @@ mas upgrade
 
 # Update Lazy.nvim plugins
 nvim --headless "+Lazy! sync" +qa
-
 # FIXME: Mason Update sometimes does not work.
 # Update Mason plugins
 nvim --headless +"MasonUpdate" +qa
+
+# Update rust binary crates
+cargo install-update -a
+cargo install --list > "$HOME/.dotfiles/setup/cargo_binary_crates.txt"
+
+# Update global npm packages
+npm update -g
+npm list -g --depth=0 --json > "$HOME/.dotfiles/setup/npm_global_packages.json"
 
 # Commit and push changes to the dotfiles repository
 cd "$HOME/.dotfiles" || { echo "Failed to change directory to ~/.dotfiles"; exit 1; }

@@ -1,5 +1,4 @@
 #!/bin/bash
-# TODO: Find way to exclude all of .config to be symlink, and find way to only symlink specific files in .config
 
 # Set the dotfiles directory to the parent directory of where this script is located
 DOTFILES_DIR="$(dirname "${BASH_SOURCE[0]}" && cd .. && pwd)"

@@ -57,6 +57,8 @@ brew "pfetch"
 brew "pkgconf"
 # Theme for zsh
 brew "powerlevel10k"
+# Python version management
+brew "pyenv"
 # Software environment for statistical computing
 brew "r"
 # Search tool like grep and The Silver Searcher
@@ -166,6 +168,8 @@ vscode "mtxr.sqltools"
 vscode "mtxr.sqltools-driver-mysql"
 vscode "openai.openai-chatgpt-adhoc"
 vscode "reditorsupport.r"
+vscode "rust-lang.rust-analyzer"
+vscode "tamasfe.even-better-toml"
 vscode "tomoki1207.pdf"
 vscode "xabikos.javascriptsnippets"
 vscode "zainchen.json"

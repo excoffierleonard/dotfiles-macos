@@ -2,7 +2,7 @@
   "name": "lib",
   "dependencies": {
     "@anthropic-ai/claude-code": {
-      "version": "0.2.14",
+      "version": "0.2.19",
       "overridden": false
     },
     "corepack": {

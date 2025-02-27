@@ -50,7 +50,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
 # Create, run, and share large language models (LLMs)
-brew "ollama"
+brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Package compiler and linker metadata toolkit

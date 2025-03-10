@@ -1,8 +1,10 @@
-cargo-audit v0.21.1:
+cargo-audit v0.21.2:
     cargo-audit
-cargo-update v16.1.0:
+cargo-update v16.2.0:
     cargo-install-update
     cargo-install-update-config
+create-tauri-app v4.5.9:
+    cargo-create-tauri-app
 ocrs-cli v0.10.2:
     ocrs
 sqlx-cli v0.8.3:

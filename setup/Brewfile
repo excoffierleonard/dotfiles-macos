@@ -50,7 +50,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
 # Create, run, and share large language models (LLMs)
-brew "ollama", restart_service: :changed
+brew "ollama"
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Package compiler and linker metadata toolkit
@@ -69,6 +69,8 @@ brew "rust"
 brew "sherlock"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Enables extra languages support for Tesseract
+brew "tesseract-lang"
 # Simplified and community-driven man pages
 brew "tldr"
 # Terminal multiplexer

@@ -2,19 +2,19 @@
   "name": "lib",
   "dependencies": {
     "@anthropic-ai/claude-code": {
-      "version": "0.2.19",
+      "version": "0.2.35",
       "overridden": false
     },
     "corepack": {
-      "version": "0.31.0",
+      "version": "0.32.0",
       "overridden": false
     },
     "npm": {
-      "version": "11.1.0",
+      "version": "11.2.0",
       "overridden": false
     },
     "typescript": {
-      "version": "5.7.3",
+      "version": "5.8.2",
       "overridden": false
     }
   }

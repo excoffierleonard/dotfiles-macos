@@ -2,3 +2,4 @@
 colorscheme.lua
 lualine.lua (sometimes not always)
 .tmux.conf 
+.wezterm.lua

@@ -8,9 +8,9 @@ return {
 		-- configure lualine with theme
 		lualine.setup({
 			sections = {
-				-- options = {
-				--	theme = "tokyonight",
-				-- },
+				options = {
+					theme = "horizon",
+				},
 				lualine_x = {
 					{
 						lazy_status.updates,

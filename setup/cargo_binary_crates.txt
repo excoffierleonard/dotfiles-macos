@@ -1,3 +1,8 @@
+cargo-chef v0.1.71:
+    cargo-chef
 cargo-update v16.2.1:
     cargo-install-update
     cargo-install-update-config
+sqlx-cli v0.8.3:
+    cargo-sqlx
+    sqlx

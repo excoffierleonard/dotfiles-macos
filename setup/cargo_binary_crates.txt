@@ -1,0 +1,3 @@
+cargo-update v16.2.1:
+    cargo-install-update
+    cargo-install-update-config

@@ -1,17 +1,15 @@
 return {
-	"folke/tokyonight.nvim",
-	priority = 1000,
-	config = function()
-		local transparent = true -- set to true if you would like to enable transparency
-		require("tokyonight").setup({
-			-- you can place your customization parameters here
-			style = "night",
-			transparent = transparent,
-			styles = {
-				sidebars = transparent and "transparent" or "dark",
-				floats = transparent and "transparent" or "dark",
-			},
-		})
-		vim.cmd("colorscheme tokyonight")
-	end,
+	{
+		"akinsho/horizon.nvim",
+		version = "*", -- Use the latest version
+		config = function()
+			-- Load the horizon theme
+			vim.cmd([[colorscheme horizon]])
+
+			-- Set transparent background
+			vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+			vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+			vim.api.nvim_set_hl(0, "NonText", { bg = "none" })
+		end,
+	},
 }

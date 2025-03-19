@@ -48,7 +48,7 @@ brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node", link: false
+brew "node"
 # Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh
@@ -65,6 +65,8 @@ brew "r"
 brew "ripgrep"
 # Safe, concurrent, practical language
 brew "rust"
+# Rust toolchain installer
+brew "rustup"
 # Hunt down social media accounts by username
 brew "sherlock"
 # Command-line interface for https://speedtest.net bandwidth tests

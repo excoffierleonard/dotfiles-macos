@@ -15,7 +15,7 @@ config.window_padding = {
 	bottom = "10px",
 }
 
-config.color_scheme = "Tokyo Night"
+config.color_scheme = "Horizon Dark (base16)"
 
 config.font = wezterm.font("SF Mono")
 config.font_size = 16

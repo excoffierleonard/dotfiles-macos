@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Homebrew installation
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # Set the setup directory to where this script is located
 SETUP_DIR="$(cd "$(dirname "$0")" && pwd)"
 INSTALL_PACKAGES_SCRIPT="$SETUP_DIR/install_packages.sh"

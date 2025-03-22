@@ -10,6 +10,7 @@
 !/.tmux.conf
 !/.wezterm.lua
 !/.zshrc
+!/.zprofile
 
 # Unignore specific directories (and their contents) from the root
 !/resources

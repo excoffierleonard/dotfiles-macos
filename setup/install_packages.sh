@@ -14,21 +14,21 @@ install_brew_packages() {
 }
 
 install_mas_packages() {
-    if [ -f "$SETUP_DIR/rust_binary_crates.txt" ]; then
+    if [ -f "$SETUP_DIR/mas_manifest.txt" ]; then
         cut -d ' ' -f1 mas_manifest.txt | xargs -I {} mas install {}
     else
-        echo "No rust_binary_crates.json found in $SETUP_DIR"
+        echo "No mas_manifest.txt found in $SETUP_DIR"
     fi
 }
 
 # Function to install rust binary crates
 install_rust_binary_crates() {
-    if [ -f "$SETUP_DIR/rust_binary_crates.txt" ]; then
+    if [ -f "$SETUP_DIR/cargo_binary_crates.txt" ]; then
         while read crate; do
             cargo install "$crate"
-        done < "$SETUP_DIR/rust_binary_crates.txt"
+        done < "$SETUP_DIR/cargo_binary_crates.txt"
     else
-        echo "No rust_binary_crates.json found in $SETUP_DIR"
+        echo "No cargo_binary_crates.txt found in $SETUP_DIR"
     fi
 }
 

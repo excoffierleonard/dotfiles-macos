@@ -5,12 +5,12 @@ return {
 		local lualine = require("lualine")
 		local lazy_status = require("lazy.status") -- to configure lazy pending updates count
 
-		-- configure lualine with theme
+		-- configure lualine with theme (note the placement of options)
 		lualine.setup({
+			options = {
+				theme = "horizon",
+			},
 			sections = {
-				options = {
-					theme = "horizon",
-				},
 				lualine_x = {
 					{
 						lazy_status.updates,

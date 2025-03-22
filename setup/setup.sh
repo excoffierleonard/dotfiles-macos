@@ -1,24 +1,19 @@
 #!/bin/bash
 
-# Homebrew installation
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 # Set the setup directory to where this script is located
 SETUP_DIR="$(cd "$(dirname "$0")" && pwd)"
 INSTALL_PACKAGES_SCRIPT="$SETUP_DIR/install_packages.sh"
 SYMLINK_SCRIPT="$SETUP_DIR/symlink_dotfiles.sh"
 
-# Run packages install script
-if [ -f "$INSTALL_PACKAGES_SCRIPT" ]; then
-    bash "$INSTALL_PACKAGES_SCRIPT"
-else
-    echo "Homebrew install script not found: $INSTALL_PACKAGES_SCRIPT"
-fi
+# Homebrew installation
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Add Homebrew to PATH for the session, the dotfile will add it permanently
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Run symlink script
-if [ -f "$SYMLINK_SCRIPT" ]; then
-    bash "$SYMLINK_SCRIPT"
-else
-    echo "Symlink script not found: $SYMLINK_SCRIPT"
-fi
+bash "$SYMLINK_SCRIPT"
+
+# Run packages install script
+bash "$INSTALL_PACKAGES_SCRIPT"
 

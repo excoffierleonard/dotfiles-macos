@@ -8,9 +8,16 @@ ModifierKeys:
 
 - Key on reapeat rate maxed out
 
+Enable Group windows by application, desktop and dock setting
+
 Manual Transfet:
 -.ssh
 -Wireguard Tunnels
 
+-Check battery power settings
+- Lock screen times: 10min, 1hour,3hours
+
+-Setup iphone miroring
+
 Cosmetics:
-- Menu Bar, Date formats, Dock
+- Menu Bar, Date formats, Dock, background..

@@ -8,3 +8,5 @@
 	defaultBranch = main
 [merge]
         ff = false
+[url "git@github.com:"]
+	insteadOf = https://github.com/

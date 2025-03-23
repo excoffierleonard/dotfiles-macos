@@ -1,0 +1,10 @@
+[v1]
+"cargo-chef 0.1.71 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-chef"]
+"cargo-update 16.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = [
+    "cargo-install-update",
+    "cargo-install-update-config",
+]
+"sqlx-cli 0.8.3 (registry+https://github.com/rust-lang/crates.io-index)" = [
+    "cargo-sqlx",
+    "sqlx",
+]

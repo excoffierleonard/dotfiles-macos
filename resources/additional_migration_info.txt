@@ -17,6 +17,8 @@ Manual Transfet:
 -Check battery power settings
 - Lock screen times: 10min, 1hour,3hours
 
+- Change name of device
+
 -Setup iphone miroring
 
 Cosmetics:

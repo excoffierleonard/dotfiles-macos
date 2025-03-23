@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the setup directory to where this script is located
-SETUP_DIR="$(cd "$(dirname "$0")" && pwd)"
+SETUP_DIR="$HOME/.dotfiles/setup"
 INSTALL_PACKAGES_SCRIPT="$SETUP_DIR/install_packages.sh"
 SYMLINK_SCRIPT="$SETUP_DIR/symlink_dotfiles.sh"
 

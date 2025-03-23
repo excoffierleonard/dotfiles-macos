@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Set the dotfiles directory to the parent directory of where this script is located
-DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+DOTFILES_DIR="$HOME/.dotfiles"
 BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d%H%M%S)"
 
 # Function to create symlinks

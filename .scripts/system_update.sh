@@ -7,7 +7,6 @@ brew bundle dump --describe --force --file="$HOME/.dotfiles/setup/Brewfile"
 
 # Update App Store packages
 mas upgrade
-mas list > "$HOME/.dotfiles/setup/mas_manifest.txt"
 
 # Update Lazy.nvim plugins
 nvim --headless "+Lazy! sync" +qa
@@ -17,7 +16,8 @@ nvim --headless +"MasonUpdate" +qa
 
 # Update rust binary crates
 cargo install-update -a
-cargo install --list > "$HOME/.dotfiles/setup/cargo_binary_crates.txt"
+# Maybe find way to track it like any other dotfiles later
+cp "$HOME/.cargo/.crates.toml" "$HOME/.dotfiles/setup/.crates.toml"
 
 # Update global npm packages
 npm update -g

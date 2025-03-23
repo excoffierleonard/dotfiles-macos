@@ -14,10 +14,11 @@ nvim --headless "+Lazy! sync" +qa
 # Update Mason plugins
 nvim --headless +"MasonUpdate" +qa
 
+#TODO: Find way to simply track the crates.toml and maybe find if there is a file keeping track of installed npm packages
+
 # Update rust binary crates
 cargo install-update -a
-# Maybe find way to track it like any other dotfiles later
-cp "$HOME/.cargo/.crates.toml" "$HOME/.dotfiles/setup/.crates.toml"
+cat ~/.cargo/.crates2.json | jq -r '.installs | keys[] | split(" ")[0]' > ~/.dotfiles/setup/rust_binary_crates.txt
 
 # Update global npm packages
 npm update -g

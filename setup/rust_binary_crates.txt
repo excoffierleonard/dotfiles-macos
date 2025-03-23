@@ -1,0 +1,3 @@
+cargo-chef
+cargo-update
+sqlx-cli

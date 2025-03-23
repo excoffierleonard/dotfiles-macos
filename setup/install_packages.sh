@@ -7,9 +7,9 @@ SETUP_DIR="$HOME/.dotfiles/setup"
 brew bundle --file="$SETUP_DIR/Brewfile"
 
 # Function to install rust binary crates
-cp "$SETUP_DIR/.crates.toml" "$HOME/.cargo/.crates.toml"
-cargo install cargo-update
-cargo install-update -a
+for crate in $(cat "$SETUP_DIR/rust_binary_crates.txt"); do
+  cargo install "$crate"
+done
 
 # Function to install npm global packages
 for pkg in $(jq -r '.dependencies | keys[]' "$SETUP_DIR/npm_global_packages.json"); do

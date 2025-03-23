@@ -3,3 +3,12 @@ InputSources:
 
 ModifierKeys:
   -Caps Lock is bind to control
+
+-Deactivate Internet based results in spotlight search
+
+- Key on reapeat rate maxed out
+
+Manual Transfet:
+-.ssh
+-Wireguard Tunnels
+

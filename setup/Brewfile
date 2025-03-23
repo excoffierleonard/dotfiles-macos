@@ -16,8 +16,6 @@ brew "cmatrix"
 brew "curl"
 # Modern, maintained replacement for ls
 brew "eza"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
 # OCR (Optical Character Recognition) engine
 brew "tesseract"
 # Play, record, convert, and stream audio and video
@@ -28,6 +26,8 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Lazier way to manage everything docker

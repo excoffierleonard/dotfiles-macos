@@ -12,3 +12,5 @@ Manual Transfet:
 -.ssh
 -Wireguard Tunnels
 
+Cosmetics:
+- Menu Bar, Date formats, Dock

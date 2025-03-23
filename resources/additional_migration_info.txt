@@ -19,6 +19,8 @@ Manual Transfet:
 
 - Change name of device
 
+- Enable remote login (ssh)
+
 -Setup iphone miroring
 
 Cosmetics:

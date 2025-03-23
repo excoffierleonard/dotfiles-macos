@@ -14,6 +14,8 @@ Manual Transfet:
 -.ssh
 -Wireguard Tunnels
 
+- Add google internet account and override what is synched using google first
+
 -Check battery power settings
 - Lock screen times: 10min, 1hour,3hours
 

@@ -78,6 +78,8 @@ brew "tmux"
 brew "tree"
 # Vi 'workalike' with many additional features
 brew "vim"
+# Library to create, extract, and modify Windows Imaging files
+brew "wimlib"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
@@ -90,6 +92,8 @@ brew "zsh-syntax-highlighting"
 brew "jesseduffield/lazygit/lazygit"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Desktop password and login vault
 cask "bitwarden"
 # OpenAI's official ChatGPT desktop app

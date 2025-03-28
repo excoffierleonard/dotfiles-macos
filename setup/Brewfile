@@ -47,7 +47,7 @@ brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
 # Create, run, and share large language models (LLMs)
-brew "ollama"
+brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Package compiler and linker metadata toolkit
@@ -122,8 +122,6 @@ cask "ledger-live"
 cask "microsoft-auto-update"
 # Office suite
 cask "microsoft-office"
-# Remote desktop client
-cask "microsoft-remote-desktop"
 # Sandbox construction video game
 cask "minecraft"
 # Client program for the OpenVPN Access Server
@@ -148,6 +146,8 @@ cask "vlc"
 cask "vmware-fusion"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm"
+# Connect to Windows
+cask "windows-app"
 mas "DaVinci Resolve", id: 571213070
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
@@ -179,5 +179,6 @@ vscode "redhat.vscode-yaml"
 vscode "rust-lang.rust-analyzer"
 vscode "tamasfe.even-better-toml"
 vscode "tomoki1207.pdf"
+vscode "wayou.vscode-todo-highlight"
 vscode "xabikos.javascriptsnippets"
 vscode "zainchen.json"

@@ -1,3 +1,4 @@
 cargo-chef
 cargo-update
+fib-rs
 sqlx-cli

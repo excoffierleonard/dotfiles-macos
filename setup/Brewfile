@@ -45,7 +45,7 @@ brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node", link: false
+brew "node"
 # Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh

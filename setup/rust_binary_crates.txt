@@ -3,3 +3,4 @@ cargo-update
 fib-rs
 sqlx-cli
 trunk
+wasm-bindgen-cli

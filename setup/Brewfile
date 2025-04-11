@@ -136,6 +136,8 @@ cask "spotify"
 cask "steam"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Charting and social-networking for investment traders
+cask "tradingview"
 # Virtual machines UI using QEMU
 cask "utm"
 # Open-source code editor

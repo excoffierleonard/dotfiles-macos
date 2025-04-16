@@ -1,7 +1,9 @@
 cargo-audit
 cargo-chef
 cargo-update
+create-tauri-app
 fib-rs
 sqlx-cli
+tauri-cli
 trunk
 wasm-bindgen-cli

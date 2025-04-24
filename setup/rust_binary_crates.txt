@@ -1,8 +1,12 @@
 cargo-audit
 cargo-chef
+cargo-generate
+cargo-leptos
 cargo-update
 create-tauri-app
 fib-rs
+flamegraph
+leptosfmt
 sqlx-cli
 tauri-cli
 trunk

@@ -2,6 +2,7 @@ cargo-audit
 cargo-chef
 cargo-generate
 cargo-leptos
+cargo-udeps
 cargo-update
 create-tauri-app
 fib-rs

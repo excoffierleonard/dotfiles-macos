@@ -128,6 +128,8 @@ cask "openvpn-connect"
 cask "postman"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
+# Rust IDE
+cask "rustrover"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
@@ -182,6 +184,7 @@ vscode "ms-vscode-remote.remote-wsl"
 vscode "ms-vscode.remote-explorer"
 vscode "mtxr.sqltools"
 vscode "mtxr.sqltools-driver-mysql"
+vscode "mtxr.sqltools-driver-pg"
 vscode "opeolluwa.leptos"
 vscode "redhat.vscode-yaml"
 vscode "reditorsupport.r"

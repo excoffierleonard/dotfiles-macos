@@ -2,11 +2,11 @@
   "name": "lib",
   "dependencies": {
     "@anthropic-ai/claude-code": {
-      "version": "0.2.113",
+      "version": "0.2.114",
       "overridden": false
     },
     "@openai/codex": {
-      "version": "0.1.2504301751",
+      "version": "0.1.2505140839",
       "overridden": false
     },
     "corepack": {

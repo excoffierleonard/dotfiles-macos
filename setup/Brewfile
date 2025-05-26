@@ -162,6 +162,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "WireGuard", id: 1451685025
 vscode "alexandernanberg.horizon-theme-vscode"
+vscode "anthropic.claude-code"
 vscode "bradlc.vscode-tailwindcss"
 vscode "davidanson.vscode-markdownlint"
 vscode "dionannd.tokyo-night-ported-nvim"

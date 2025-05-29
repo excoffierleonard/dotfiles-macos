@@ -47,7 +47,7 @@ brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node"
+brew "node", link: false
 # Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh
@@ -138,6 +138,8 @@ cask "spotify"
 cask "steam"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Web browser focusing on security
+cask "tor-browser"
 # Charting and social-networking for investment traders
 cask "tradingview"
 # Virtual machines UI using QEMU
@@ -174,6 +176,8 @@ vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "mechatroner.rainbow-csv"
 vscode "monokai.theme-monokai-pro-vscode"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.black-formatter"
 vscode "ms-python.debugpy"
 vscode "ms-python.pylint"

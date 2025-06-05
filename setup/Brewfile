@@ -92,6 +92,8 @@ brew "zsh-syntax-highlighting"
 brew "jesseduffield/lazygit/lazygit"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
+# Memory training application
+cask "anki"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # Desktop password and login vault
@@ -152,6 +154,8 @@ cask "vlc"
 cask "vmware-fusion"
 # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm"
+# Native desktop client for WhatsApp
+cask "whatsapp"
 # Connect to Windows
 cask "windows-app"
 # Network protocol analyzer

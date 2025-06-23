@@ -107,7 +107,7 @@ cask "crystalfetch"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 # Cloud backup tool
 cask "duplicacy-cli"
 # Cloud backup tool
@@ -159,7 +159,7 @@ cask "whatsapp"
 # Connect to Windows
 cask "windows-app"
 # Network protocol analyzer
-cask "wireshark"
+cask "wireshark-app"
 mas "DaVinci Resolve", id: 571213070
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434

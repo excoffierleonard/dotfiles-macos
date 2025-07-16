@@ -47,7 +47,7 @@ brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node"
+brew "node", link: false
 # Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh
@@ -134,6 +134,8 @@ cask "postman"
 cask "qbittorrent"
 # Rust IDE
 cask "rustrover"
+# Manager for SENA devices
+cask "senadevicemanager"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service

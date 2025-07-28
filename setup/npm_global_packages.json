@@ -1,0 +1,29 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "@anthropic-ai/claude-code": {
+      "version": "1.0.61",
+      "overridden": false
+    },
+    "@openai/codex": {
+      "version": "0.10.0",
+      "overridden": false
+    },
+    "corepack": {
+      "version": "0.34.0",
+      "overridden": false
+    },
+    "npm": {
+      "version": "11.5.1",
+      "overridden": false
+    },
+    "sass": {
+      "version": "1.89.2",
+      "overridden": false
+    },
+    "typescript": {
+      "version": "5.8.3",
+      "overridden": false
+    }
+  }
+}

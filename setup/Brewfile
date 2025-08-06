@@ -34,6 +34,8 @@ brew "icu4c@76"
 brew "jq"
 # Lazier way to manage everything docker
 brew "lazydocker"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Drop-in replacement for MySQL
 brew "mariadb"
 # Mac App Store command-line interface
@@ -47,7 +49,7 @@ brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
-brew "node"
+brew "node", link: false
 # Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh
@@ -88,8 +90,6 @@ brew "zsh"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# A simple terminal UI for git commands, written in Go
-brew "jesseduffield/lazygit/lazygit"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
 # Memory training application
@@ -163,6 +163,7 @@ cask "windows-app"
 # Network protocol analyzer
 cask "wireshark-app"
 mas "DaVinci Resolve", id: 571213070
+mas "Filters for Photos", id: 1083965373
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

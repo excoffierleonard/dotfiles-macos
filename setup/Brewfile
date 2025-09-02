@@ -1,5 +1,7 @@
 tap "jesseduffield/lazygit"
 tap "nikitabobko/tap"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # B2 Cloud Storage Command-Line Tools
 brew "b2-tools"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -32,6 +34,10 @@ brew "git"
 brew "icu4c@76"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Platform built on V8 to build network applications
+brew "node", link: false
+# Interactive environments for writing and running code
+brew "jupyterlab"
 # Lazier way to manage everything docker
 brew "lazydocker"
 # Simple terminal UI for git commands
@@ -48,10 +54,6 @@ brew "neofetch"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
-brew "node", link: false
-# Create, run, and share large language models (LLMs)
-brew "ollama", restart_service: :changed
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Package compiler and linker metadata toolkit
@@ -126,6 +128,8 @@ cask "microsoft-auto-update"
 cask "microsoft-office"
 # Sandbox construction video game
 cask "minecraft"
+# Get up and running with large language models locally
+cask "ollama-app"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
 # Collaboration platform for API development

@@ -14,6 +14,10 @@ brew "btop"
 brew "cloc"
 # Console Matrix
 brew "cmatrix"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# OpenAI's coding agent that runs in your terminal
+brew "codex"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Pack, ship and run any application as a lightweight container
@@ -64,8 +68,6 @@ brew "powerlevel10k"
 brew "pyenv"
 # Software environment for statistical computing
 brew "r"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
 # Hunt down social media accounts by username
 brew "sherlock"
 # Command-line interface for https://speedtest.net bandwidth tests
@@ -186,7 +188,9 @@ vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "gitlab.gitlab-workflow"
+vscode "james-yu.latex-workshop"
 vscode "jasonn-porch.gitlab-mr"
+vscode "mathematic.vscode-latex"
 vscode "mechatroner.rainbow-csv"
 vscode "monokai.theme-monokai-pro-vscode"
 vscode "ms-azuretools.vscode-containers"
@@ -196,6 +200,7 @@ vscode "ms-python.debugpy"
 vscode "ms-python.pylint"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"

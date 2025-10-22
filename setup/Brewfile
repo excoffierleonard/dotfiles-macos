@@ -58,10 +58,14 @@ brew "neofetch"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Adds an OCR text layer to scanned PDF files
+brew "ocrmypdf"
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Theme for zsh
 brew "powerlevel10k"
 # Python version management
@@ -104,6 +108,8 @@ cask "balenaetcher"
 cask "bitwarden"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# OpenAI's official browser with ChatGPT built in
+cask "chatgpt-atlas"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # UI for creating Windows installer ISO from UUPDump
@@ -201,6 +207,7 @@ vscode "ms-python.pylint"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
+vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
@@ -220,11 +227,13 @@ vscode "tamasfe.even-better-toml"
 vscode "tomoki1207.pdf"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.migrate-java-to-azure"
 vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-java-upgrade"
 vscode "vscjava.vscode-maven"
 vscode "wayou.vscode-todo-highlight"
 vscode "xabikos.javascriptsnippets"

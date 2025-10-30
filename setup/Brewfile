@@ -39,7 +39,7 @@ brew "icu4c@76"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Platform built on V8 to build network applications
-brew "node", link: false
+brew "node"
 # Interactive environments for writing and running code
 brew "jupyterlab"
 # Lazier way to manage everything docker

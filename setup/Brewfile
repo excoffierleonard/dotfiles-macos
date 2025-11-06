@@ -129,7 +129,7 @@ cask "font-sf-mono"
 # Web browser
 cask "google-chrome"
 # Wallet desktop application to maintain multiple cryptocurrencies
-cask "ledger-live"
+cask "ledger-wallet"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Office suite

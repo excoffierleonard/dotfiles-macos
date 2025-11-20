@@ -60,6 +60,8 @@ brew "neovim"
 brew "nmap"
 # Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
+# Port of pdftk in java
+brew "pdftk-java"
 # Pretty system information tool written in POSIX sh
 brew "pfetch"
 # Package compiler and linker metadata toolkit
@@ -98,6 +100,8 @@ brew "zsh"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# View, print, and comment on PDF documents
+cask "adobe-acrobat-reader"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
 # Memory training application

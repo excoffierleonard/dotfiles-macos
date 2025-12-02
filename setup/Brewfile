@@ -60,6 +60,8 @@ brew "neovim"
 brew "nmap"
 # Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
+# Create, run, and share large language models (LLMs)
+brew "ollama", restart_service: :changed
 # Port of pdftk in java
 brew "pdftk-java"
 # Pretty system information tool written in POSIX sh
@@ -140,8 +142,6 @@ cask "microsoft-auto-update"
 cask "microsoft-office"
 # Sandbox construction video game
 cask "minecraft"
-# Get up and running with large language models locally
-cask "ollama-app"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
 # Collaboration platform for API development

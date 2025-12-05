@@ -174,8 +174,6 @@ cask "wezterm"
 cask "whatsapp"
 # Connect to Windows
 cask "windows-app"
-# Network protocol analyzer
-cask "wireshark-app"
 mas "DaVinci Resolve", id: 571213070
 mas "Filters for Photos", id: 1083965373
 mas "GarageBand", id: 682658836

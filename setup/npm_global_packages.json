@@ -2,7 +2,7 @@
   "name": "lib",
   "dependencies": {
     "@anthropic-ai/claude-code": {
-      "version": "2.0.59",
+      "version": "2.0.61",
       "overridden": false
     },
     "@openai/codex": {

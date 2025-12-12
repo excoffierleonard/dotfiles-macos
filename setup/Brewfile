@@ -34,6 +34,8 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Client library for huggingface.co hub
+brew "huggingface-cli"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@76"
 # Lightweight and flexible command-line JSON processor
@@ -46,6 +48,8 @@ brew "jupyterlab"
 brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
+# LLVM's OpenMP runtime library
+brew "libomp"
 # Drop-in replacement for MySQL
 brew "mariadb"
 # Mac App Store command-line interface

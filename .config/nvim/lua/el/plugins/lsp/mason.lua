@@ -35,6 +35,8 @@ return {
 				"rust_analyzer",
 				"bashls",
 			},
+			-- Disable automatic enabling (we use vim.lsp.enable() explicitly)
+			automatic_enable = false,
 		})
 
 		mason_tool_installer.setup({

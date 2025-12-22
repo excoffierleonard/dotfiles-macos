@@ -1,5 +1,6 @@
 cargo-audit
 cargo-chef
+cargo-edit
 cargo-generate
 cargo-leptos
 cargo-udeps

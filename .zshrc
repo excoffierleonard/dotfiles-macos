@@ -71,3 +71,10 @@ bindkey '^[[B' history-search-forward
 
 # Ensure Cargo package can be reached
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# bun completions
+[ -s "/Users/el/.bun/_bun" ] && source "/Users/el/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

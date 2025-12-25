@@ -48,6 +48,8 @@ brew "jupyterlab"
 brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Library to communicate with iOS devices natively
+brew "libimobiledevice"
 # LLVM's OpenMP runtime library
 brew "libomp"
 # Drop-in replacement for MySQL
@@ -98,6 +100,8 @@ brew "uv"
 brew "vim"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
+# Generate your Xcode project from a spec file and your folder structure
+brew "xcodegen"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
@@ -229,8 +233,6 @@ vscode "reditorsupport.r-syntax"
 vscode "rust-lang.rust-analyzer"
 vscode "tamasfe.even-better-toml"
 vscode "tomoki1207.pdf"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vscjava.migrate-java-to-azure"
 vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"

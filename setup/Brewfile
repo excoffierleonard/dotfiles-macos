@@ -24,14 +24,14 @@ brew "curl"
 brew "docker", link: false
 # Modern, maintained replacement for ls
 brew "eza"
-# OCR (Optical Character Recognition) engine
-brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Distributed revision control system
 brew "git"
 # Client library for huggingface.co hub

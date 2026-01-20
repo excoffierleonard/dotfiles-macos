@@ -32,6 +32,7 @@ alias system_update="~/.scripts/system_update.sh"
 alias todo="~/.scripts/todo.sh"
 alias gacp='f() { git add . && git commit -m "$1" && git push; }; f'
 alias gac='f() { git add . && git commit -m "$1"; }; f'
+alias claude="claude --dangerously-skip-permissions"
 
 # Set up the editor
 export EDITOR=nvim

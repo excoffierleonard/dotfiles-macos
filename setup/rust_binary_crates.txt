@@ -6,6 +6,7 @@ cargo-leptos
 cargo-udeps
 cargo-update
 create-tauri-app
+cross
 fib-rs
 flamegraph
 leptosfmt

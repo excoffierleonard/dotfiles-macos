@@ -66,8 +66,6 @@ brew "neovim"
 brew "nmap"
 # Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
-# Create, run, and share large language models (LLMs)
-brew "ollama", restart_service: :changed
 # Port of pdftk in java
 brew "pdftk-java"
 # Pretty system information tool written in POSIX sh

@@ -14,10 +14,6 @@ brew "btop"
 brew "cloc"
 # Console Matrix
 brew "cmatrix"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
-# OpenAI's coding agent that runs in your terminal
-brew "codex"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Pack, ship and run any application as a lightweight container
@@ -80,6 +76,8 @@ brew "powerlevel10k"
 brew "pyenv"
 # Software environment for statistical computing
 brew "r"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Hunt down social media accounts by username
 brew "sherlock"
 # Command-line interface for https://speedtest.net bandwidth tests
@@ -100,6 +98,8 @@ brew "vim"
 brew "wimlib"
 # Generate your Xcode project from a spec file and your folder structure
 brew "xcodegen"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
@@ -122,8 +122,10 @@ cask "bitwarden"
 cask "chatgpt"
 # OpenAI's official browser with ChatGPT built in
 cask "chatgpt-atlas"
-# Anthropic's official Claude AI desktop app
-cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # UI for creating Windows installer ISO from UUPDump
 cask "crystalfetch"
 # Voice and text chat software
@@ -178,14 +180,20 @@ cask "wezterm"
 cask "whatsapp"
 # Connect to Windows
 cask "windows-app"
-mas "DaVinci Resolve", id: 571213070
+mas "Compressor", id: 6746516157
 mas "Filters for Photos", id: 1083965373
+mas "Final Cut Pro", id: 1631624924
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+mas "Keynote", id: 361285480
+mas "Logic Pro", id: 1615087040
+mas "MainStage", id: 6746637089
+mas "Motion", id: 6746637149
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Pixelmator Pro", id: 6746662575
 mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
 vscode "alexandernanberg.horizon-theme-vscode"
 vscode "anthropic.claude-code"
 vscode "bradlc.vscode-tailwindcss"
@@ -259,6 +267,7 @@ cargo "cross"
 cargo "fib-rs"
 cargo "flamegraph"
 cargo "leptosfmt"
+cargo "mistralrs-cli"
 cargo "sqlx-cli"
 cargo "tauri-cli"
 cargo "trunk"

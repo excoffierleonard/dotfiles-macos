@@ -76,6 +76,8 @@ brew "powerlevel10k"
 brew "pyenv"
 # Software environment for statistical computing
 brew "r"
+# Rsync for cloud storage
+brew "rclone"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Hunt down social media accounts by username

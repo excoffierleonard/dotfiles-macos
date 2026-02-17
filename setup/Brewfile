@@ -168,6 +168,8 @@ cask "steam"
 cask "telegram"
 # Web browser focusing on security
 cask "tor-browser"
+# AI image upscaler
+cask "upscayl"
 # Virtual machines UI using QEMU
 cask "utm"
 # Open-source code editor

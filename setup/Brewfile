@@ -156,8 +156,6 @@ cask "openvpn-connect"
 cask "postman"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
-# Rust IDE
-cask "rustrover"
 # Manager for SENA devices
 cask "senadevicemanager"
 # Music streaming service

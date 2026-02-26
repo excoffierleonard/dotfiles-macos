@@ -183,7 +183,6 @@ cask "whatsapp"
 # Connect to Windows
 cask "windows-app"
 mas "Compressor", id: 6746516157
-mas "Filters for Photos", id: 1083965373
 mas "Final Cut Pro", id: 1631624924
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434

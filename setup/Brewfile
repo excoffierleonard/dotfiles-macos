@@ -112,12 +112,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
-# AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace"
-# Memory training application
-cask "anki"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
 # Desktop password and login vault
 cask "bitwarden"
 # OpenAI's official ChatGPT desktop app
@@ -128,8 +122,6 @@ cask "chatgpt-atlas"
 cask "claude-code"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# UI for creating Windows installer ISO from UUPDump
-cask "crystalfetch"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
@@ -154,8 +146,6 @@ cask "minecraft"
 cask "openvpn-connect"
 # Collaboration platform for API development
 cask "postman"
-# Peer to peer Bitorrent client
-cask "qbittorrent"
 # Manager for SENA devices
 cask "senadevicemanager"
 # Music streaming service
@@ -168,8 +158,6 @@ cask "telegram"
 cask "tor-browser"
 # AI image upscaler
 cask "upscayl"
-# Virtual machines UI using QEMU
-cask "utm"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player

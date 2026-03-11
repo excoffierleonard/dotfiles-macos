@@ -31,7 +31,7 @@ brew "tesseract"
 # Distributed revision control system
 brew "git"
 # Client library for huggingface.co hub
-brew "huggingface-cli"
+brew "hf"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@76"
 # Lightweight and flexible command-line JSON processor
